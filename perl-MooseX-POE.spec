@@ -11,9 +11,14 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
 
-
+BuildRequires: perl(ExtUtils::MakeMaker)
+BuildRequires: perl(Moose)
+BuildRequires: perl(MooseX::Async)
+BuildRequires: perl(POE)
+BuildRequires: perl(Sub::Name)
+BuildRequires: perl(Test::More)
 BuildArch: noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 MooseX::POE is a Moose wrapper around a POE::Session.
@@ -40,5 +45,4 @@ rm -rf %buildroot
 %doc Changes
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
 
