@@ -16,6 +16,7 @@ BuildRequires: perl(Moose)
 BuildRequires: perl(MooseX::Async)
 BuildRequires: perl(POE)
 BuildRequires: perl(Sub::Name)
+BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::More)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
