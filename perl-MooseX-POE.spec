@@ -1,8 +1,8 @@
 %define upstream_name    MooseX-POE
-%define upstream_version 0.204
+%define upstream_version 0.205
 
 Name:       perl-%{upstream_name}
-Version:    0.205
+Version:    %perl_convert_version %{upstream_version}
 Release:    %mkrel 1
 
 Summary:    A Instance Metaclass for MooseX::POE
