@@ -1,5 +1,5 @@
 %define upstream_name    MooseX-POE
-%define upstream_version 0.207
+%define upstream_version 0.208
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
