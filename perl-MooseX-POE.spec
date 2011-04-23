@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    A Instance Metaclass for MooseX::POE
 License:    GPL+ or Artistic
 Group:      Development/Perl
