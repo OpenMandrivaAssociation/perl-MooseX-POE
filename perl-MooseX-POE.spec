@@ -1,14 +1,14 @@
 %define upstream_name    MooseX-POE
-%define upstream_version 0.214
+%define upstream_version 0.215
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 Summary:	A Instance Metaclass for MooseX::POE
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-POE-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -93,4 +93,5 @@ make test
 
 * Mon Jun 01 2009 cpan2dist 0.203-1mdv
 - initial mdv release, generated with cpan2dist
+
 

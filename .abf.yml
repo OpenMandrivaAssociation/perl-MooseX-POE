@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-POE-0.214.tar.gz: 9b7500bdc92c9d28ac6eb9b49f8ac060a9eebe8c
 sources:
-  "MooseX-POE-0.214.tar.gz": 9b7500bdc92c9d28ac6eb9b49f8ac060a9eebe8c
+  MooseX-POE-0.215.tar.gz: fa03619bb58cc917c4cc99eaeabd1890e233e724
